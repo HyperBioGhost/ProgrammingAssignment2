@@ -39,3 +39,16 @@ cacheSolve <- function(x, ...) {
       x$setinver(i)
       i        ## Return a matrix that is the inverse of 'x'
 }
+
+## Here's a sample of calling the functions
+##
+## >m <- makeCacheMatrix()
+## >cacheSolve(m)
+##      [,1]  [,2]
+## [1,]   -2     3
+## [2,]   3     -4
+## >cacheSolve(m)
+## This is the cached data
+##      [,1]  [,2]
+## [1,]   -2     3
+## [2,]   3     -4
